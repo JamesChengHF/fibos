@@ -1,0 +1,165 @@
+@keyframes blinker {
+    50% {
+        opacity: 0.5; } }
+
+@keyframes opacity-appearance {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1; } }
+
+@keyframes opacity-appeared {
+    0% {
+        opacity: 1; }
+    100% {
+        opacity: 1; } }
+
+@-webkit-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-moz-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-webkit-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@-moz-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+.ethers {
+    font-family: 'Tex Gyre Cursor'; }
+
+.ethers > small {
+    font-family: 'San Francisco Display Thin';
+    font-size: 1em;
+    padding-left: 0.25em; }
+
+@keyframes acid-button-loop {
+    0% {
+        background-position: 0% 0%; }
+    100% {
+        background-position: 200% 0%; } }
+
+.wall-of-text {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px;
+    left: calc(25% - 25px + 20px);
+    position: relative;
+    padding: 2em 0; }
+.wall-of-text h1 {
+    color: #dedede;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "San Francisco Display Medium";
+    margin: 1em 0 0.25em 0;
+    padding: 0.25em 0; }
+.wall-of-text h1 a {
+    color: #cecece;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "San Francisco Display Medium"; }
+.wall-of-text h1 strong {
+    color: white; }
+.wall-of-text h2 {
+    color: #ebebeb;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "San Francisco Display Medium";
+    margin: 3em 0 1em 0;
+    padding: 0.25em 0;
+    text-align: center; }
+.wall-of-text h2:after, .wall-of-text h2:before {
+    content: ' ';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4PSIwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHk9IjBweCI+CiAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjMuMjU1LDM0Ljg5OWMtMC42MjksMi4xMDEtMC4yMzUsNC4xODgsMS4xMzksNi4wMzNjMC4wMTQsMC4wMTgsMS4xMTEsMS40MTQsMS45OTQsMS45MThsLTAuMDExLDAuMDE1ICBjMy42MTIsMi4zNjksNy42MjksMy4xMDUsMTEuNTQxLDMuMjE1Yy0zLjU2OSwxLjQ3LTcuMDcyLDMuNTMxLTkuMzQ4LDYuOTk1Yy0wLjc1MSwxLjE0NS0xLjk0NCwzLjQ0LTEuNDg5LDUuOTY1ICBjMC4zNTQsMS45NTUsMS42NzUsMy43MjksMy40NDUsNC42MjhjMS4zMTYsMC42NjksMi44NzUsMC44NSw0LjMxNiwwLjU0N2MwLjIwNSwxLjg5NywxLjI1LDQuNDE1LDQuMzE1LDUuNDcxICBjMi42ODksMC45MjgsNC44NjMtMC4wMjcsNi4yMTUtMC45OTFjMC4wMTctMC4wMTIsMS4zMzktMC45OCwxLjg1NC0xLjgxN2wwLjAxNywwLjAxMmMyLjM1NC0zLjI5LDQuMDQxLTcuMjQ3LDQuODc0LTExLjI3MSAgYzEuOTg2LDcuMDQ4LDYuNDQ5LDE4LjY2NywxNS43MDksMjcuMjk4YzAuMTkyLDAuMTgsMC40MzgsMC4yNjksMC42ODIsMC4yNjljMC4yNjgsMCwwLjUzNC0wLjEwNiwwLjczMS0wLjMxOCAgYzAuMzc3LTAuNDAzLDAuMzU0LTEuMDM2LTAuMDUtMS40MTNjLTkuMDE0LTguNDAyLTEzLjM1OS0yMC4wNjItMTUuMjQ1LTI2Ljg0MWMyLjc5MSwzLjcxOCw1Ljg1NCw2LjIzNiw5LjM5Miw3Ljc2OCAgYzEuMDM1LDAuNTE4LDUuNDk5LDEuNzQsOC40MjItMS43NDNjMi4wNzEtMi40NjgsMS42ODgtNS4xNDcsMC44NzItNi45MDhjMS40LTAuNDgzLDIuNjQ0LTEuNDQzLDMuNDI5LTIuNjk0ICBjMS4wNTUtMS42ODQsMS4yNzMtMy44ODUsMC41NjktNS43NDNjLTAuOTA4LTIuMzk2LTMuMTEzLTMuNzUxLTQuMzQ4LTQuMzQ2Yy0zLjczMS0xLjc5NS03Ljc5OS0xLjc1OC0xMS42MTUtMS4xODIgIGMzLjI5Ny0yLjEwOCw2LjM2NC00LjgxMyw4LjI0NS04LjcxMmMwLjg2Ni0xLjg1NSwxLjU0LTUuNzE3LTEuNDMzLTguNDI0Yy0yLjM4MS0yLjE2OC01LjA3Mi0xLjg5NS02Ljg2Ni0xLjE1MSAgYy0wLjQyNi0xLjQxOC0xLjMzNS0yLjctMi41NTQtMy41MzRjLTEuNjQtMS4xMjMtMy44My0xLjQzMS01LjcxNC0wLjgwM2MtMi40MzMsMC44MTEtMy44NzYsMi45NTktNC41Miw0LjE2OCAgYy0xLjY1OCwzLjExMy0xLjk5Nyw2LjUyMS0xLjgwMSw5LjgzNGMtMS41MzYtMi45MzgtMy41ODEtNS42ODEtNi42MDMtNy40OTRjLTEuMTc0LTAuNzA1LTMuNTIxLTEuODA0LTYuMDE5LTEuMjQ0ICBjLTEuOTM5LDAuNDMzLTMuNjU4LDEuODIzLTQuNDg1LDMuNjI5Yy0wLjYxNCwxLjM0MS0wLjczNCwyLjkwMy0wLjM3Miw0LjMzNkMyNi42NTgsMzAuNjQ4LDI0LjE4NCwzMS43OTQsMjMuMjU1LDM0Ljg5OXogICBNMjUuMTcxLDM1LjQ3M2MxLjAxNC0zLjM4Niw0LjQ1NS0zLjE3OSw0LjUyNC0zLjE4bDAuMTMyLDAuMDIxYzAuMzc1LDAuMDU4LDAuNzUxLTAuMTAxLDAuOTctMC40MSAgYzAuMjE5LTAuMzEsMC4yNDQtMC43MTcsMC4wNjQtMS4wNTFjLTAuNjQ5LTEuMjExLTAuNjk3LTIuNzM5LTAuMTI1LTMuOTg5YzAuNTcyLTEuMjQ5LDEuNzYxLTIuMjExLDMuMTAzLTIuNTExICBjMS4zMjktMC4yOTcsMi45OTEsMC4wNjksNC41NTQsMS4wMDhjNC43ODUsMi44NzIsNi44NDIsOC40NTMsOC42NTYsMTMuMzc3YzAuMDk0LDAuMjU0LDAuMzMxLDAuNDQxLDAuNTc5LDAuNTUxICBjMC4yNDcsMC4xMSwwLjU3MiwwLjA5NCwwLjgyNS0wLjAwNmMwLjQ0MS0wLjE4LDAuNjk0LTAuNjQ2LDAuNjA1LTEuMTEzYy0wLjk4LTUuMTU1LTIuMDkxLTEwLjk5OCwwLjUzMi0xNS45MjQgIGMwLjg1Ni0xLjYwOCwyLjA5MS0yLjc3OCwzLjM4Ni0zLjIxYzEuMzA0LTAuNDM0LDIuODE4LTAuMjIyLDMuOTUyLDAuNTU2YzEuMTM0LDAuNzc2LDEuODgsMi4xMTEsMS45NDYsMy40ODQgIGMwLjAxOSwwLjM4LDAuMjUxLDAuNzE3LDAuNjAxLDAuODY4YzAuMzUsMC4xNTIsMC43NTQsMC4wOTIsMS4wNDQtMC4xNTNsMC4wMzgtMC4wMzZjMC4xMTktMC4wODUsMi45MzUtMi4wNTIsNS41NzQsMC4zNTEgIGMyLjYzNSwyLjM5OSwxLjA1MSw1LjkxOCwwLjk2OCw2LjA5N2MtMi41NTMsNS4yODYtNy41MTQsOC4xMy0xMi4zNzcsMTAuNTg5Yy0wLjQ2MiwwLjIzNC0wLjY3LDAuNzgyLTAuNDc4LDEuMjY0bDAuMDgxLDAuMjAzICBjMC4xODMsMC40NTcsMC42NjcsMC43MTQsMS4xNTUsMC42MDNjNS4xMTEtMS4xODgsMTAuOTA1LTIuNTM0LDE1LjkzMy0wLjExM2MxLjY0MywwLjc5LDIuODYxLDEuOTc2LDMuMzQ0LDMuMjUyICBjMC40ODcsMS4yODUsMC4zMzcsMi44MDgtMC4zOTQsMy45NzJjLTAuNzI5LDEuMTY0LTIuMDMzLDEuOTY0LTMuNDAyLDIuMDg2Yy0wLjM3OSwwLjAzNC0wLjcwNSwwLjI3OS0wLjg0MywwLjYzMyAgYy0wLjEzOCwwLjM1NC0wLjA2MywwLjc1NiwwLjE5MiwxLjAzN2wwLjAzNywwLjAzNWMwLjA4OSwwLjExNiwyLjE0OSwyLjg4Mi0wLjEyMSw1LjU4OWMtMi4zMTUsMi43NTctNS44OTYsMS4yNzktNi4wNDYsMS4yMTYgIGMtNC41MjUtMS45Ni04LjIxMi01LjctMTEuNjAyLTExLjc2OGMtMC4wMjctMC4wNTItMC4wNi0wLjEtMC4wOTUtMC4xNDZjLTAuMDY1LTAuMDg0LTAuMTQzLTAuMTU2LTAuMjI5LTAuMjE0ICBjLTAuMTM4LTAuMDkzLTAuMjk5LTAuMTUyLTAuNDcyLTAuMTY4Yy0wLjA3Ny0wLjAwNy0wLjE1Ni0wLjAwNi0wLjIzMywwLjAwN2MtMC4xNTQsMC4wMjItMC4yOTcsMC4wNzktMC40MTksMC4xNjMgIGMtMC4wODcsMC4wNTktMC4xNjIsMC4xMzEtMC4yMjYsMC4yMTJjLTAuMTExLDAuMTQzLTAuMTg1LDAuMzE1LTAuMjA1LDAuNTA0Yy0wLjAwNiwwLjA1LTAuMDA3LDAuMTAxLTAuMDA1LDAuMTUxICBjMC4xNzYsNS41ODktMS43MjMsMTEuNzI2LTUuMDgsMTYuNDE2djAuMDAxYy0wLjExLDAuMTUtMi40MDgsMy4yNC01LjgwOSwyLjA2OWMtMy4zNC0xLjE1LTIuOTk3LTQuNTgxLTIuOTk0LTQuNjQ2bDAuMDI2LTAuMTMyICBjMC4wNzQtMC4zNzMtMC4wNjgtMC43NTUtMC4zNjktMC45ODdjLTAuMTc5LTAuMTM4LTAuMzk0LTAuMjA5LTAuNjExLTAuMjA5Yy0wLjE0OCwwLTAuMjk4LDAuMDMzLTAuNDM3LDAuMTAxICBjLTEuMjM1LDAuNi0yLjc2NiwwLjU4Ny0zLjk5MS0wLjAzNmMtMS4yMjUtMC42MjItMi4xMzgtMS44NDktMi4zODMtMy4yMDFjLTAuMjQyLTEuMzQ0LDAuMTkyLTIuOTg3LDEuMTkyLTQuNTExICBjMy4wNjQtNC42NjUsOC43MjQtNi40OTMsMTMuNzE3LTguMTA2YzAuNDctMC4xNTEsMC43NTktMC42MjQsMC42OC0xLjExMmwtMC4wMzUtMC4yMTZjLTAuMDg0LTAuNTExLTAuNTQ2LTAuODg0LTEuMDYtMC44MzYgIGMtNS40NCwwLjM5NS0xMS4xNiwwLjUxMS0xNi4wNjktMi43MDljLTAuMDAxLTAuMDAxLTAuMDAxLTAuMDAxLTAuMDAyLTAuMDAxQzI3LjMwOSw0MS4wODIsMjQuMTQxLDM4LjkwNywyNS4xNzEsMzUuNDczeiIvPgo8L3N2Zz4=) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    line-height: 30px; }
+.wall-of-text p {
+    color: #cecece;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.25em;
+    margin-top: 0.5em; }
+.wall-of-text p a {
+    color: #cecece;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 18px; }
+.wall-of-text p ol {
+    list-style-type: square;
+    margin: 1em 0; }
+.wall-of-text p ol li {
+    margin: 0 0 0.25em 0; }
+.wall-of-text::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+@media screen and (max-width: 800px) {
+    .wall-of-text {
+        display: block;
+        position: static;
+        float: none;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        padding: 20px; }
+    .wall-of-text h1 {
+        margin: 0 0 5px;
+        font-size: 16px; }
+    .wall-of-text h1 > a {
+        font-size: 16px; }
+    .wall-of-text p + h1 {
+        margin-top: 15px; }
+    .wall-of-text p {
+        font-size: 14px; }
+    .wall-of-text p > a {
+        font-size: 14px; } }

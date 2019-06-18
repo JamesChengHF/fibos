@@ -1,0 +1,119 @@
+@keyframes blinker {
+    50% {
+        opacity: 0.5; } }
+
+@keyframes opacity-appearance {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1; } }
+
+@keyframes opacity-appeared {
+    0% {
+        opacity: 1; }
+    100% {
+        opacity: 1; } }
+
+@-webkit-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-moz-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-webkit-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@-moz-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+.ethers {
+    font-family: 'Tex Gyre Cursor'; }
+
+.ethers > small {
+    font-family: 'San Francisco Display Thin';
+    font-size: 1em;
+    padding-left: 0.25em; }
+
+@keyframes acid-button-loop {
+    0% {
+        background-position: 0% 0%; }
+    100% {
+        background-position: 200% 0%; } }
+
+.place-bet > button {
+    transition: background-position 1s ease, background-size 1s ease;
+    background-image: linear-gradient(30deg, #00ffbd 0%, #4cc6d3 20%, #af7bf0 50%, #4cc6d3 80%, #00ffbd 100%);
+    box-shadow: 0 0 30px 0 rgba(24, 31, 49, 0.5);
+    background-size: 200% 100%;
+    background-repeat: repeat;
+    transform: translateZ(0);
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    width: 310px;
+    height: 75px;
+    cursor: pointer;
+    margin-top: 40px; }
+.place-bet > button:hover {
+    background-position: 50% 0%;
+    background-size: 800% 100%; }
+
+.place-bet > p {
+    margin-top: 1em;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+    opacity: 0.6; }
+
+@media screen and (max-width: 800px) {
+    .place-bet > button {
+        font-size: 25px;
+        width: 100%;
+        display: block;
+        height: 50px;
+        margin-top: 20px; } }

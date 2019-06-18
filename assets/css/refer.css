@@ -1,0 +1,284 @@
+@keyframes blinker {
+    50% {
+        opacity: 0.5; } }
+
+@keyframes opacity-appearance {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1; } }
+
+@keyframes opacity-appeared {
+    0% {
+        opacity: 1; }
+    100% {
+        opacity: 1; } }
+
+@-webkit-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-moz-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg); }
+    to {
+        transform: rotateZ(360deg); } }
+
+@-webkit-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@-moz-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+@keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2); }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1); } }
+
+.ethers {
+    font-family: 'Tex Gyre Cursor'; }
+
+.ethers > small {
+    font-family: 'San Francisco Display Thin';
+    font-size: 1em;
+    padding-left: 0.25em; }
+
+@keyframes acid-button-loop {
+    0% {
+        background-position: 0% 0%; }
+    100% {
+        background-position: 200% 0%; } }
+
+.refer-a-friend {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 5em;
+    color: white; }
+.refer-a-friend > h1 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 36px;
+    margin: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0 10em;
+    text-align: center;
+    box-sizing: border-box; }
+.refer-a-friend > h1 > a {
+    color: white; }
+.refer-a-friend > h2 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 1em;
+    margin-bottom: 2.5em;
+    padding: 0 10em;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1.5em; }
+.refer-a-friend > h2 > a {
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 1em; }
+.refer-a-friend > .web3-required {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px;
+    left: calc(25% - 25px + 20px);
+    position: relative;
+    text-align: center; }
+.refer-a-friend ul {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    left: calc(0% - 20px + 20px);
+    position: relative; }
+.refer-a-friend ul.loading > li {
+    position: relative; }
+.refer-a-friend ul.loading > li::before {
+    content: ' ';
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxnIGlkPSJJY29uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTG9hZGluZyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNS4wMDAwMDAsIDQuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTY1LDMwIEM2NSwzMy4zMDUzMzMzIDYyLjMwMjY2NjcsMzYgNTksMzYgQzU1LjcwMTMzMzMsMzYgNTMsMzMuMzA1MzMzMyA1MywzMCBMNTMsNiBDNTMsMi43MDEzMzMzMyA1NS43MDEzMzMzLDAgNTksMCBDNjIuMzAyNjY2NywwIDY1LDIuNzAxMzMzMzMgNjUsNiBMNjUsMzAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02NSwxMTMgQzY1LDExNi4zMDUzMzMgNjIuMzAyNjY2NywxMTkgNTksMTE5IEM1NS43MDEzMzMzLDExOSA1MywxMTYuMzA1MzMzIDUzLDExMyBMNTMsODkgQzUzLDg1LjcwMTMzMzMgNTUuNzAxMzMzMyw4MyA1OSw4MyBDNjIuMzAyNjY2Nyw4MyA2NSw4NS43MDEzMzMzIDY1LDg5IEw2NSwxMTMgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMCw1NCBDMzMuMzAyNjY2Nyw1NCAzNiw1Ni43MDEzMzMzIDM2LDYwIEMzNiw2My4zMDUzMzMzIDMzLjMwMjY2NjcsNjYgMzAsNjYgTDYsNjYgQzIuNzAxMzMzMzMsNjYgMCw2My4zMDUzMzMzIDAsNjAgQzAsNTYuNzAxMzMzMyAyLjcwMTMzMzMzLDU0IDYsNTQgTDMwLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMTEzLDU0IEMxMTYuMzAyNjY3LDU0IDExOSw1Ni43MDEzMzMzIDExOSw2MCBDMTE5LDYzLjMwNTMzMzMgMTE2LjMwMjY2Nyw2NiAxMTMsNjYgTDg5LDY2IEM4NS43MDEzMzMzLDY2IDgzLDYzLjMwNTMzMzMgODMsNjAgQzgzLDU2LjcwMTMzMzMgODUuNzAxMzMzMyw1NCA4OSw1NCBMMTEzLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDIuOTAxNTMsMzQuNDc0OTkzNCBDNDUuMjE3MDA3MywzNi43OTU3NjYyIDQ1LjIxNzAwNzMsNDAuNTc4MTA5NSA0Mi45MDE1Myw0Mi44OTg4ODIzIEM0MC41ODM0MDUsNDUuMjE5NjU1IDM2Ljc5NTc2NjIsNDUuMjE5NjU1IDM0LjQ3NzY0MTIsNDIuODk4ODgyMyBMMTcuNjIzMjQ0MSwyNi4wNTExMDQ2IEMxNS4zMDc3NjY5LDIzLjczMDMzMTggMTUuMzA3NzY2OSwxOS45NDI2OTMgMTcuNjIzMjQ0MSwxNy42MjcyMTU4IEMxOS45NDEzNjkxLDE1LjMwNjQ0MyAyMy43MzgyNzUxLDE1LjMwNjQ0MyAyNi4wNTM3NTI0LDE3LjYyNzIxNTggTDQyLjkwMTUzLDM0LjQ3NDk5MzQgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMDEuMTQ4NTU4LDk0LjA1MTIwMyBDMTAzLjQ2NDAzNSw5Ni4zNzE5NzU3IDEwMy40NjQwMzUsMTAwLjE1OTYxNSAxMDEuMTQ4NTU4LDEwMi40NzUwOTIgQzk4LjgzMDQzMjcsMTA0Ljc5NTg2NSA5NS4wNDI3OTM5LDEwNC43OTU4NjUgOTIuNzI0NjY4OSwxMDIuNDc1MDkyIEw3NS44NzAyNzE4LDg1LjYyNTk5MDMgQzczLjU2MDA5MDEsODMuMzA1MjE3NSA3My41NjAwOTAxLDc5LjUyMjg3NDIgNzUuODcwMjcxOCw3Ny4yMDIxMDE0IEM3OC4xODgzOTY4LDc0Ljg4MTMyODcgODEuOTg1MzAyOCw3NC44ODEzMjg3IDg0LjMwMDc4LDc3LjIwMjEwMTQgTDEwMS4xNDg1NTgsOTQuMDUxMjAzIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzQuNDczMDA3Niw3Ny4xOTgxMjk4IEMzNi43ODg0ODQ4LDc0Ljg4MjY1MjUgNDAuNTc2MTIzNyw3NC44ODI2NTI1IDQyLjg5NDI0ODcsNzcuMTk4MTI5OCBDNDUuMjEyMzczNyw3OS41MjU1MjIgNDUuMjEyMzczNyw4My4zMDY1NDE0IDQyLjg5NDI0ODcsODUuNjIyMDE4NiBMMjYuMDQ5MTE4OCwxMDIuNDc2NDE2IEMyMy43MzA5OTM4LDEwNC43OTcxODggMTkuOTQwNzA3MSwxMDQuNzk3MTg4IDE3LjYyNTIyOTksMTAyLjQ3NjQxNiBDMTUuMzA3MTA0OSwxMDAuMTYwOTM4IDE1LjMwNzEwNDksOTYuMzczMjk5NiAxNy42MjUyMjk5LDk0LjA1MjUyNjkgTDM0LjQ3MzAwNzYsNzcuMTk4MTI5OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTkyLjcyNTMzMDgsMTcuNjIzMjQ0MSBDOTUuMDQwODA4LDE1LjMwNzc2NjkgOTguODMxMDk0NiwxNS4zMDc3NjY5IDEwMS4xNDkyMiwxNy42MjMyNDQxIEMxMDMuNDY0Njk3LDE5Ljk0NDAxNjkgMTAzLjQ2NDY5NywyMy43MzE2NTU3IDEwMS4xNDkyMiwyNi4wNDcxMzI5IEw4NC4zMDAxMTgxLDQyLjkwMTUzIEM4MS45ODE5OTMxLDQ1LjIyMjMwMjggNzguMTg1MDg3LDQ1LjIyMjMwMjggNzUuODc2MjI5Miw0Mi45MDE1MyBDNzMuNTU4MTA0Myw0MC41ODYwNTI4IDczLjU1ODEwNDMsMzYuNzk4NDE0IDc1Ljg3NjIyOTIsMzQuNDc3NjQxMiBMOTIuNzI1MzMwOCwxNy42MjMyNDQxIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
+    border: none;
+    opacity: 0.2;
+    -webkit-animation: loading-spin 5.5s 0s linear infinite;
+    -moz-animation: loading-spin 5.5s 0s linear infinite;
+    animation: loading-spin 5.5s 0s linear infinite; }
+.refer-a-friend ul.loading > li > input {
+    visibility: hidden; }
+.refer-a-friend ul.loading > li > label {
+    visibility: hidden; }
+.refer-a-friend ul.loading > li > a {
+    visibility: hidden; }
+.refer-a-friend ul > li {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1em; }
+.refer-a-friend ul > li h3 {
+    font-family: "San Francisco Display Thin";
+    font-size: 27px;
+    margin-bottom: 1em;
+    height: 1em;
+    opacity: 0.75; }
+.refer-a-friend ul > li span {
+    font-family: "San Francisco Display Thin";
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0.5em; }
+.refer-a-friend ul > li > input {
+    background: none;
+    font-family: "San Francisco Display Thin";
+    font-size: 27px;
+    border: none;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin: 0 -30px 5px -30px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box; }
+.refer-a-friend ul > li > label {
+    display: block;
+    height: 50px;
+    margin-bottom: 5px; }
+.refer-a-friend ul > li > label > span {
+    display: inline-block;
+    margin-right: 0.125em;
+    color: white;
+    font-family: "Tex Gyre Cursor";
+    font-weight: 200;
+    font-size: 40px; }
+.refer-a-friend ul > li > label > small {
+    color: white;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 20px; }
+.refer-a-friend ul > li > span {
+    color: lightgray;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+    margin-top: 16px; }
+.refer-a-friend ul > li > a {
+    transition: background-position 1s ease, background-size 1s ease;
+    background-image: linear-gradient(30deg, #00ffbd 0%, #4cc6d3 20%, #af7bf0 50%, #4cc6d3 80%, #00ffbd 100%);
+    box-shadow: 0 0 30px 0 rgba(24, 31, 49, 0.5);
+    background-size: 200% 100%;
+    background-repeat: repeat;
+    transform: translateZ(0);
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    font-family: "San Francisco Display Thin";
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 0.2em; }
+.refer-a-friend ul > li > a:hover {
+    background-position: 50% 0%;
+    background-size: 800% 100%; }
+.refer-a-friend ul::after {
+    clear: both;
+    content: "";
+    display: block; }
+.refer-a-friend > h4 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 5em;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    opacity: 0.5; }
+.refer-a-friend > table {
+    width: calc(83.33333% - 36.66667px);
+    float: left;
+    margin-left: 20px;
+    left: calc(8.33333% - 21.66667px + 20px);
+    position: relative;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 18px;
+    opacity: 0.5; }
+.refer-a-friend > table > thead {
+    border-bottom: 1px solid white; }
+.refer-a-friend > table > thead > tr > th {
+    text-align: left;
+    padding-bottom: 5px; }
+.refer-a-friend > table > tbody > tr > td {
+    text-align: left;
+    padding: 5px 0; }
+.refer-a-friend > table > tbody > tr > td:nth-child(2) {
+    width: 32em; }
+.refer-a-friend > table th, .refer-a-friend > table td {
+    text-align: center; }
+.refer-a-friend::after {
+    clear: both;
+    content: "";
+    display: block; }

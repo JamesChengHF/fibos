@@ -1,0 +1,128 @@
+{
+    "version": "eosio::abi/1.2",
+    "structs": [
+        {
+            "name": "todo_index",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "int64"
+                }
+            ]
+        },
+        {
+            "name": "todo",
+            "base" : "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "int64"
+                },
+                {
+                    "name": "address_from",
+                    "type": "string"
+                },
+                {
+                    "name": "amount",
+                    "type": "int64"
+                },
+                {
+                    "name": "bet_point",
+                    "type": "string"
+                },
+                {
+                    "name": "random",
+                    "type": "int64"
+                },
+                {
+                    "name": "dice_payment",
+                    "type": "int64"
+                },
+                {
+                    "name": "commit",
+                    "type": "string"
+                },
+                {
+                    "name": "block_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "bet_mask",
+                    "type": "int64"
+                },
+                {
+                    "name": "tx_hash",
+                    "type": "string"
+                }
+            ]
+        },{
+            "name": "trans",
+            "base" : "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "string"
+                },
+                {
+                    "name": "to",
+                    "type": "string"
+                },
+                {
+                    "name": "quantity",
+                    "type": "string"
+                },
+                {
+                    "name": "memo",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "emplacetodo",
+            "type": "todo",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "findtodo",
+            "type": "todo_index",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "updatetodo",
+            "type": "todo",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "destorytodo",
+            "type": "todo_index",
+            "ricardian_contract": ""
+        },
+        {
+            "name" : "rolltodo",
+            "type": "todo",
+            "ricardian_contract": ""
+        },
+        {
+            "name" : "helloworld",
+            "type": "trans",
+            "ricardian_contract": ""
+        },
+        {
+            "name" : "findidtodo",
+            "type": "todo",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "todos",
+            "type": "todo",
+            "index_type": "i64",
+            "key_names": ["id"],
+            "key_types": ["int64"]
+        }
+    ]
+}

@@ -1,0 +1,640 @@
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes opacity-appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-appeared {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@-moz-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.ethers {
+    font-family: 'Tex Gyre Cursor';
+}
+
+.ethers > small {
+    font-family: 'San Francisco Display Thin';
+    font-size: 1em;
+    padding-left: 0.25em;
+}
+
+@keyframes acid-button-loop {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
+section.history > div {
+    background: #303f69;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    width: 410px;
+    height: 600px;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+section.history > div > h3 {
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 30px;
+    margin: 30px 20px 10px 20px;
+}
+
+section.history > div > h3 > button {
+    background: none;
+    border: none;
+    float: right;
+    padding: 9px 15px;
+    margin-right: -15px;
+    border-radius: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none !important;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 12px;
+}
+
+section.history > div > h3 > button.active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+section.history > div > h5 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 20px;
+    margin: 220px 30px 10px 30px;
+}
+
+section.history > div > i {
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxnIGlkPSJJY29uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTG9hZGluZyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNS4wMDAwMDAsIDQuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTY1LDMwIEM2NSwzMy4zMDUzMzMzIDYyLjMwMjY2NjcsMzYgNTksMzYgQzU1LjcwMTMzMzMsMzYgNTMsMzMuMzA1MzMzMyA1MywzMCBMNTMsNiBDNTMsMi43MDEzMzMzMyA1NS43MDEzMzMzLDAgNTksMCBDNjIuMzAyNjY2NywwIDY1LDIuNzAxMzMzMzMgNjUsNiBMNjUsMzAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02NSwxMTMgQzY1LDExNi4zMDUzMzMgNjIuMzAyNjY2NywxMTkgNTksMTE5IEM1NS43MDEzMzMzLDExOSA1MywxMTYuMzA1MzMzIDUzLDExMyBMNTMsODkgQzUzLDg1LjcwMTMzMzMgNTUuNzAxMzMzMyw4MyA1OSw4MyBDNjIuMzAyNjY2Nyw4MyA2NSw4NS43MDEzMzMzIDY1LDg5IEw2NSwxMTMgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMCw1NCBDMzMuMzAyNjY2Nyw1NCAzNiw1Ni43MDEzMzMzIDM2LDYwIEMzNiw2My4zMDUzMzMzIDMzLjMwMjY2NjcsNjYgMzAsNjYgTDYsNjYgQzIuNzAxMzMzMzMsNjYgMCw2My4zMDUzMzMzIDAsNjAgQzAsNTYuNzAxMzMzMyAyLjcwMTMzMzMzLDU0IDYsNTQgTDMwLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMTEzLDU0IEMxMTYuMzAyNjY3LDU0IDExOSw1Ni43MDEzMzMzIDExOSw2MCBDMTE5LDYzLjMwNTMzMzMgMTE2LjMwMjY2Nyw2NiAxMTMsNjYgTDg5LDY2IEM4NS43MDEzMzMzLDY2IDgzLDYzLjMwNTMzMzMgODMsNjAgQzgzLDU2LjcwMTMzMzMgODUuNzAxMzMzMyw1NCA4OSw1NCBMMTEzLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDIuOTAxNTMsMzQuNDc0OTkzNCBDNDUuMjE3MDA3MywzNi43OTU3NjYyIDQ1LjIxNzAwNzMsNDAuNTc4MTA5NSA0Mi45MDE1Myw0Mi44OTg4ODIzIEM0MC41ODM0MDUsNDUuMjE5NjU1IDM2Ljc5NTc2NjIsNDUuMjE5NjU1IDM0LjQ3NzY0MTIsNDIuODk4ODgyMyBMMTcuNjIzMjQ0MSwyNi4wNTExMDQ2IEMxNS4zMDc3NjY5LDIzLjczMDMzMTggMTUuMzA3NzY2OSwxOS45NDI2OTMgMTcuNjIzMjQ0MSwxNy42MjcyMTU4IEMxOS45NDEzNjkxLDE1LjMwNjQ0MyAyMy43MzgyNzUxLDE1LjMwNjQ0MyAyNi4wNTM3NTI0LDE3LjYyNzIxNTggTDQyLjkwMTUzLDM0LjQ3NDk5MzQgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMDEuMTQ4NTU4LDk0LjA1MTIwMyBDMTAzLjQ2NDAzNSw5Ni4zNzE5NzU3IDEwMy40NjQwMzUsMTAwLjE1OTYxNSAxMDEuMTQ4NTU4LDEwMi40NzUwOTIgQzk4LjgzMDQzMjcsMTA0Ljc5NTg2NSA5NS4wNDI3OTM5LDEwNC43OTU4NjUgOTIuNzI0NjY4OSwxMDIuNDc1MDkyIEw3NS44NzAyNzE4LDg1LjYyNTk5MDMgQzczLjU2MDA5MDEsODMuMzA1MjE3NSA3My41NjAwOTAxLDc5LjUyMjg3NDIgNzUuODcwMjcxOCw3Ny4yMDIxMDE0IEM3OC4xODgzOTY4LDc0Ljg4MTMyODcgODEuOTg1MzAyOCw3NC44ODEzMjg3IDg0LjMwMDc4LDc3LjIwMjEwMTQgTDEwMS4xNDg1NTgsOTQuMDUxMjAzIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzQuNDczMDA3Niw3Ny4xOTgxMjk4IEMzNi43ODg0ODQ4LDc0Ljg4MjY1MjUgNDAuNTc2MTIzNyw3NC44ODI2NTI1IDQyLjg5NDI0ODcsNzcuMTk4MTI5OCBDNDUuMjEyMzczNyw3OS41MjU1MjIgNDUuMjEyMzczNyw4My4zMDY1NDE0IDQyLjg5NDI0ODcsODUuNjIyMDE4NiBMMjYuMDQ5MTE4OCwxMDIuNDc2NDE2IEMyMy43MzA5OTM4LDEwNC43OTcxODggMTkuOTQwNzA3MSwxMDQuNzk3MTg4IDE3LjYyNTIyOTksMTAyLjQ3NjQxNiBDMTUuMzA3MTA0OSwxMDAuMTYwOTM4IDE1LjMwNzEwNDksOTYuMzczMjk5NiAxNy42MjUyMjk5LDk0LjA1MjUyNjkgTDM0LjQ3MzAwNzYsNzcuMTk4MTI5OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTkyLjcyNTMzMDgsMTcuNjIzMjQ0MSBDOTUuMDQwODA4LDE1LjMwNzc2NjkgOTguODMxMDk0NiwxNS4zMDc3NjY5IDEwMS4xNDkyMiwxNy42MjMyNDQxIEMxMDMuNDY0Njk3LDE5Ljk0NDAxNjkgMTAzLjQ2NDY5NywyMy43MzE2NTU3IDEwMS4xNDkyMiwyNi4wNDcxMzI5IEw4NC4zMDAxMTgxLDQyLjkwMTUzIEM4MS45ODE5OTMxLDQ1LjIyMjMwMjggNzguMTg1MDg3LDQ1LjIyMjMwMjggNzUuODc2MjI5Miw0Mi45MDE1MyBDNzMuNTU4MTA0Myw0MC41ODYwNTI4IDczLjU1ODEwNDMsMzYuNzk4NDE0IDc1Ljg3NjIyOTIsMzQuNDc3NjQxMiBMOTIuNzI1MzMwOCwxNy42MjMyNDQxIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
+    border: none;
+    opacity: 0.2;
+    -webkit-animation: loading-spin 5.5s 0s linear infinite;
+    -moz-animation: loading-spin 5.5s 0s linear infinite;
+    animation: loading-spin 5.5s 0s linear infinite;
+}
+
+section.history > div > div {
+    overflow: hidden;
+    width: 410px;
+    height: 520px;
+    position: relative;
+}
+
+section.history > div > div > header {
+    margin: 0 20px 5px 20px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+}
+
+section.history > div > div > header label {
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 14px;
+}
+
+section.history > div > div > header label.jackpot {
+    background: url(data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4PSIwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHk9IjBweCI+CiAgICA8cGF0aCBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZT0iI2ZmZiIgZmlsbD0iI2ZmZiIgZD0iTTIzLjI1NSwzNC44OTljLTAuNjI5LDIuMTAxLTAuMjM1LDQuMTg4LDEuMTM5LDYuMDMzYzAuMDE0LDAuMDE4LDEuMTExLDEuNDE0LDEuOTk0LDEuOTE4bC0wLjAxMSwwLjAxNSAgYzMuNjEyLDIuMzY5LDcuNjI5LDMuMTA1LDExLjU0MSwzLjIxNWMtMy41NjksMS40Ny03LjA3MiwzLjUzMS05LjM0OCw2Ljk5NWMtMC43NTEsMS4xNDUtMS45NDQsMy40NC0xLjQ4OSw1Ljk2NSAgYzAuMzU0LDEuOTU1LDEuNjc1LDMuNzI5LDMuNDQ1LDQuNjI4YzEuMzE2LDAuNjY5LDIuODc1LDAuODUsNC4zMTYsMC41NDdjMC4yMDUsMS44OTcsMS4yNSw0LjQxNSw0LjMxNSw1LjQ3MSAgYzIuNjg5LDAuOTI4LDQuODYzLTAuMDI3LDYuMjE1LTAuOTkxYzAuMDE3LTAuMDEyLDEuMzM5LTAuOTgsMS44NTQtMS44MTdsMC4wMTcsMC4wMTJjMi4zNTQtMy4yOSw0LjA0MS03LjI0Nyw0Ljg3NC0xMS4yNzEgIGMxLjk4Niw3LjA0OCw2LjQ0OSwxOC42NjcsMTUuNzA5LDI3LjI5OGMwLjE5MiwwLjE4LDAuNDM4LDAuMjY5LDAuNjgyLDAuMjY5YzAuMjY4LDAsMC41MzQtMC4xMDYsMC43MzEtMC4zMTggIGMwLjM3Ny0wLjQwMywwLjM1NC0xLjAzNi0wLjA1LTEuNDEzYy05LjAxNC04LjQwMi0xMy4zNTktMjAuMDYyLTE1LjI0NS0yNi44NDFjMi43OTEsMy43MTgsNS44NTQsNi4yMzYsOS4zOTIsNy43NjggIGMxLjAzNSwwLjUxOCw1LjQ5OSwxLjc0LDguNDIyLTEuNzQzYzIuMDcxLTIuNDY4LDEuNjg4LTUuMTQ3LDAuODcyLTYuOTA4YzEuNC0wLjQ4MywyLjY0NC0xLjQ0MywzLjQyOS0yLjY5NCAgYzEuMDU1LTEuNjg0LDEuMjczLTMuODg1LDAuNTY5LTUuNzQzYy0wLjkwOC0yLjM5Ni0zLjExMy0zLjc1MS00LjM0OC00LjM0NmMtMy43MzEtMS43OTUtNy43OTktMS43NTgtMTEuNjE1LTEuMTgyICBjMy4yOTctMi4xMDgsNi4zNjQtNC44MTMsOC4yNDUtOC43MTJjMC44NjYtMS44NTUsMS41NC01LjcxNy0xLjQzMy04LjQyNGMtMi4zODEtMi4xNjgtNS4wNzItMS44OTUtNi44NjYtMS4xNTEgIGMtMC40MjYtMS40MTgtMS4zMzUtMi43LTIuNTU0LTMuNTM0Yy0xLjY0LTEuMTIzLTMuODMtMS40MzEtNS43MTQtMC44MDNjLTIuNDMzLDAuODExLTMuODc2LDIuOTU5LTQuNTIsNC4xNjggIGMtMS42NTgsMy4xMTMtMS45OTcsNi41MjEtMS44MDEsOS44MzRjLTEuNTM2LTIuOTM4LTMuNTgxLTUuNjgxLTYuNjAzLTcuNDk0Yy0xLjE3NC0wLjcwNS0zLjUyMS0xLjgwNC02LjAxOS0xLjI0NCAgYy0xLjkzOSwwLjQzMy0zLjY1OCwxLjgyMy00LjQ4NSwzLjYyOWMtMC42MTQsMS4zNDEtMC43MzQsMi45MDMtMC4zNzIsNC4zMzZDMjYuNjU4LDMwLjY0OCwyNC4xODQsMzEuNzk0LDIzLjI1NSwzNC44OTl6ICAgTTI1LjE3MSwzNS40NzNjMS4wMTQtMy4zODYsNC40NTUtMy4xNzksNC41MjQtMy4xOGwwLjEzMiwwLjAyMWMwLjM3NSwwLjA1OCwwLjc1MS0wLjEwMSwwLjk3LTAuNDEgIGMwLjIxOS0wLjMxLDAuMjQ0LTAuNzE3LDAuMDY0LTEuMDUxYy0wLjY0OS0xLjIxMS0wLjY5Ny0yLjczOS0wLjEyNS0zLjk4OWMwLjU3Mi0xLjI0OSwxLjc2MS0yLjIxMSwzLjEwMy0yLjUxMSAgYzEuMzI5LTAuMjk3LDIuOTkxLDAuMDY5LDQuNTU0LDEuMDA4YzQuNzg1LDIuODcyLDYuODQyLDguNDUzLDguNjU2LDEzLjM3N2MwLjA5NCwwLjI1NCwwLjMzMSwwLjQ0MSwwLjU3OSwwLjU1MSAgYzAuMjQ3LDAuMTEsMC41NzIsMC4wOTQsMC44MjUtMC4wMDZjMC40NDEtMC4xOCwwLjY5NC0wLjY0NiwwLjYwNS0xLjExM2MtMC45OC01LjE1NS0yLjA5MS0xMC45OTgsMC41MzItMTUuOTI0ICBjMC44NTYtMS42MDgsMi4wOTEtMi43NzgsMy4zODYtMy4yMWMxLjMwNC0wLjQzNCwyLjgxOC0wLjIyMiwzLjk1MiwwLjU1NmMxLjEzNCwwLjc3NiwxLjg4LDIuMTExLDEuOTQ2LDMuNDg0ICBjMC4wMTksMC4zOCwwLjI1MSwwLjcxNywwLjYwMSwwLjg2OGMwLjM1LDAuMTUyLDAuNzU0LDAuMDkyLDEuMDQ0LTAuMTUzbDAuMDM4LTAuMDM2YzAuMTE5LTAuMDg1LDIuOTM1LTIuMDUyLDUuNTc0LDAuMzUxICBjMi42MzUsMi4zOTksMS4wNTEsNS45MTgsMC45NjgsNi4wOTdjLTIuNTUzLDUuMjg2LTcuNTE0LDguMTMtMTIuMzc3LDEwLjU4OWMtMC40NjIsMC4yMzQtMC42NywwLjc4Mi0wLjQ3OCwxLjI2NGwwLjA4MSwwLjIwMyAgYzAuMTgzLDAuNDU3LDAuNjY3LDAuNzE0LDEuMTU1LDAuNjAzYzUuMTExLTEuMTg4LDEwLjkwNS0yLjUzNCwxNS45MzMtMC4xMTNjMS42NDMsMC43OSwyLjg2MSwxLjk3NiwzLjM0NCwzLjI1MiAgYzAuNDg3LDEuMjg1LDAuMzM3LDIuODA4LTAuMzk0LDMuOTcyYy0wLjcyOSwxLjE2NC0yLjAzMywxLjk2NC0zLjQwMiwyLjA4NmMtMC4zNzksMC4wMzQtMC43MDUsMC4yNzktMC44NDMsMC42MzMgIGMtMC4xMzgsMC4zNTQtMC4wNjMsMC43NTYsMC4xOTIsMS4wMzdsMC4wMzcsMC4wMzVjMC4wODksMC4xMTYsMi4xNDksMi44ODItMC4xMjEsNS41ODljLTIuMzE1LDIuNzU3LTUuODk2LDEuMjc5LTYuMDQ2LDEuMjE2ICBjLTQuNTI1LTEuOTYtOC4yMTItNS43LTExLjYwMi0xMS43NjhjLTAuMDI3LTAuMDUyLTAuMDYtMC4xLTAuMDk1LTAuMTQ2Yy0wLjA2NS0wLjA4NC0wLjE0My0wLjE1Ni0wLjIyOS0wLjIxNCAgYy0wLjEzOC0wLjA5My0wLjI5OS0wLjE1Mi0wLjQ3Mi0wLjE2OGMtMC4wNzctMC4wMDctMC4xNTYtMC4wMDYtMC4yMzMsMC4wMDdjLTAuMTU0LDAuMDIyLTAuMjk3LDAuMDc5LTAuNDE5LDAuMTYzICBjLTAuMDg3LDAuMDU5LTAuMTYyLDAuMTMxLTAuMjI2LDAuMjEyYy0wLjExMSwwLjE0My0wLjE4NSwwLjMxNS0wLjIwNSwwLjUwNGMtMC4wMDYsMC4wNS0wLjAwNywwLjEwMS0wLjAwNSwwLjE1MSAgYzAuMTc2LDUuNTg5LTEuNzIzLDExLjcyNi01LjA4LDE2LjQxNnYwLjAwMWMtMC4xMSwwLjE1LTIuNDA4LDMuMjQtNS44MDksMi4wNjljLTMuMzQtMS4xNS0yLjk5Ny00LjU4MS0yLjk5NC00LjY0NmwwLjAyNi0wLjEzMiAgYzAuMDc0LTAuMzczLTAuMDY4LTAuNzU1LTAuMzY5LTAuOTg3Yy0wLjE3OS0wLjEzOC0wLjM5NC0wLjIwOS0wLjYxMS0wLjIwOWMtMC4xNDgsMC0wLjI5OCwwLjAzMy0wLjQzNywwLjEwMSAgYy0xLjIzNSwwLjYtMi43NjYsMC41ODctMy45OTEtMC4wMzZjLTEuMjI1LTAuNjIyLTIuMTM4LTEuODQ5LTIuMzgzLTMuMjAxYy0wLjI0Mi0xLjM0NCwwLjE5Mi0yLjk4NywxLjE5Mi00LjUxMSAgYzMuMDY0LTQuNjY1LDguNzI0LTYuNDkzLDEzLjcxNy04LjEwNmMwLjQ3LTAuMTUxLDAuNzU5LTAuNjI0LDAuNjgtMS4xMTJsLTAuMDM1LTAuMjE2Yy0wLjA4NC0wLjUxMS0wLjU0Ni0wLjg4NC0xLjA2LTAuODM2ICBjLTUuNDQsMC4zOTUtMTEuMTYsMC41MTEtMTYuMDY5LTIuNzA5Yy0wLjAwMS0wLjAwMS0wLjAwMS0wLjAwMS0wLjAwMi0wLjAwMUMyNy4zMDksNDEuMDgyLDI0LjE0MSwzOC45MDcsMjUuMTcxLDM1LjQ3M3oiLz4KPC9zdmc+) no-repeat;
+    background-size: 25px 25px;
+    height: 20px;
+}
+
+section.history > div > div > header label:nth-child(1) {
+    width: 100px;
+}
+
+section.history > div > div > header label:nth-child(2) {
+    width: 45px;
+}
+
+section.history > div > div > header label:nth-child(3) {
+    width: 70px;
+    margin-right: 5px;
+}
+
+section.history > div > div > header label:nth-child(4) {
+    width: 45px;
+}
+
+section.history > div > div > header label:nth-child(5) {
+    width: 55px;
+}
+
+section.history > div > div > header label.jackpot {
+    width: 40px;
+    text-align: center;
+    background-position-x: 7px;
+}
+
+section.history > div > div > .scrollbar-container {
+    min-height: 380px;
+    padding: 0 20px 0px 20px;
+    margin: 0;
+    height: 480px;
+}
+
+section.history > div > div > .scrollbar-container > ul {
+    box-sizing: border-box;
+}
+
+section.history > div > div > .scrollbar-container > ul > li {
+    position: relative;
+    line-height: 14px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-animation: opacity-appearance 1s 0s ease-out;
+    -moz-animation: opacity-appearance 1s 0s ease-out;
+    animation: opacity-appearance 1s 0s ease-out;
+}
+
+section.history > div > div > .scrollbar-container > ul > li:hover::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 1;
+    padding: 0 20px;
+    left: -20px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-animation: loading-spin 5.5s 0s linear infinite;
+    -moz-animation: loading-spin 5.5s 0s linear infinite;
+    animation: loading-spin 5.5s 0s linear infinite;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+    left: auto;
+    right: 0;
+    z-index: 1;
+    background: transparent url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOHB4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxnIGlkPSJJY29uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iTG9hZGluZyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNS4wMDAwMDAsIDQuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTY1LDMwIEM2NSwzMy4zMDUzMzMzIDYyLjMwMjY2NjcsMzYgNTksMzYgQzU1LjcwMTMzMzMsMzYgNTMsMzMuMzA1MzMzMyA1MywzMCBMNTMsNiBDNTMsMi43MDEzMzMzMyA1NS43MDEzMzMzLDAgNTksMCBDNjIuMzAyNjY2NywwIDY1LDIuNzAxMzMzMzMgNjUsNiBMNjUsMzAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02NSwxMTMgQzY1LDExNi4zMDUzMzMgNjIuMzAyNjY2NywxMTkgNTksMTE5IEM1NS43MDEzMzMzLDExOSA1MywxMTYuMzA1MzMzIDUzLDExMyBMNTMsODkgQzUzLDg1LjcwMTMzMzMgNTUuNzAxMzMzMyw4MyA1OSw4MyBDNjIuMzAyNjY2Nyw4MyA2NSw4NS43MDEzMzMzIDY1LDg5IEw2NSwxMTMgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMCw1NCBDMzMuMzAyNjY2Nyw1NCAzNiw1Ni43MDEzMzMzIDM2LDYwIEMzNiw2My4zMDUzMzMzIDMzLjMwMjY2NjcsNjYgMzAsNjYgTDYsNjYgQzIuNzAxMzMzMzMsNjYgMCw2My4zMDUzMzMzIDAsNjAgQzAsNTYuNzAxMzMzMyAyLjcwMTMzMzMzLDU0IDYsNTQgTDMwLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMTEzLDU0IEMxMTYuMzAyNjY3LDU0IDExOSw1Ni43MDEzMzMzIDExOSw2MCBDMTE5LDYzLjMwNTMzMzMgMTE2LjMwMjY2Nyw2NiAxMTMsNjYgTDg5LDY2IEM4NS43MDEzMzMzLDY2IDgzLDYzLjMwNTMzMzMgODMsNjAgQzgzLDU2LjcwMTMzMzMgODUuNzAxMzMzMyw1NCA4OSw1NCBMMTEzLDU0IFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDIuOTAxNTMsMzQuNDc0OTkzNCBDNDUuMjE3MDA3MywzNi43OTU3NjYyIDQ1LjIxNzAwNzMsNDAuNTc4MTA5NSA0Mi45MDE1Myw0Mi44OTg4ODIzIEM0MC41ODM0MDUsNDUuMjE5NjU1IDM2Ljc5NTc2NjIsNDUuMjE5NjU1IDM0LjQ3NzY0MTIsNDIuODk4ODgyMyBMMTcuNjIzMjQ0MSwyNi4wNTExMDQ2IEMxNS4zMDc3NjY5LDIzLjczMDMzMTggMTUuMzA3NzY2OSwxOS45NDI2OTMgMTcuNjIzMjQ0MSwxNy42MjcyMTU4IEMxOS45NDEzNjkxLDE1LjMwNjQ0MyAyMy43MzgyNzUxLDE1LjMwNjQ0MyAyNi4wNTM3NTI0LDE3LjYyNzIxNTggTDQyLjkwMTUzLDM0LjQ3NDk5MzQgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMDEuMTQ4NTU4LDk0LjA1MTIwMyBDMTAzLjQ2NDAzNSw5Ni4zNzE5NzU3IDEwMy40NjQwMzUsMTAwLjE1OTYxNSAxMDEuMTQ4NTU4LDEwMi40NzUwOTIgQzk4LjgzMDQzMjcsMTA0Ljc5NTg2NSA5NS4wNDI3OTM5LDEwNC43OTU4NjUgOTIuNzI0NjY4OSwxMDIuNDc1MDkyIEw3NS44NzAyNzE4LDg1LjYyNTk5MDMgQzczLjU2MDA5MDEsODMuMzA1MjE3NSA3My41NjAwOTAxLDc5LjUyMjg3NDIgNzUuODcwMjcxOCw3Ny4yMDIxMDE0IEM3OC4xODgzOTY4LDc0Ljg4MTMyODcgODEuOTg1MzAyOCw3NC44ODEzMjg3IDg0LjMwMDc4LDc3LjIwMjEwMTQgTDEwMS4xNDg1NTgsOTQuMDUxMjAzIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzQuNDczMDA3Niw3Ny4xOTgxMjk4IEMzNi43ODg0ODQ4LDc0Ljg4MjY1MjUgNDAuNTc2MTIzNyw3NC44ODI2NTI1IDQyLjg5NDI0ODcsNzcuMTk4MTI5OCBDNDUuMjEyMzczNyw3OS41MjU1MjIgNDUuMjEyMzczNyw4My4zMDY1NDE0IDQyLjg5NDI0ODcsODUuNjIyMDE4NiBMMjYuMDQ5MTE4OCwxMDIuNDc2NDE2IEMyMy43MzA5OTM4LDEwNC43OTcxODggMTkuOTQwNzA3MSwxMDQuNzk3MTg4IDE3LjYyNTIyOTksMTAyLjQ3NjQxNiBDMTUuMzA3MTA0OSwxMDAuMTYwOTM4IDE1LjMwNzEwNDksOTYuMzczMjk5NiAxNy42MjUyMjk5LDk0LjA1MjUyNjkgTDM0LjQ3MzAwNzYsNzcuMTk4MTI5OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTkyLjcyNTMzMDgsMTcuNjIzMjQ0MSBDOTUuMDQwODA4LDE1LjMwNzc2NjkgOTguODMxMDk0NiwxNS4zMDc3NjY5IDEwMS4xNDkyMiwxNy42MjMyNDQxIEMxMDMuNDY0Njk3LDE5Ljk0NDAxNjkgMTAzLjQ2NDY5NywyMy43MzE2NTU3IDEwMS4xNDkyMiwyNi4wNDcxMzI5IEw4NC4zMDAxMTgxLDQyLjkwMTUzIEM4MS45ODE5OTMxLDQ1LjIyMjMwMjggNzguMTg1MDg3LDQ1LjIyMjMwMjggNzUuODc2MjI5Miw0Mi45MDE1MyBDNzMuNTU4MTA0Myw0MC41ODYwNTI4IDczLjU1ODEwNDMsMzYuNzk4NDE0IDc1Ljg3NjIyOTIsMzQuNDc3NjQxMiBMOTIuNzI1MzMwOCwxNy42MjMyNDQxIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+) no-repeat center center;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.pending > span.win {
+    -webkit-animation: blinker 1s 0s linear infinite;
+    -moz-animation: blinker 1s 0s linear infinite;
+    animation: blinker 1s 0s linear infinite;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.pending > div > table > tbody > tr:last-of-type {
+    -webkit-animation: blinker 1s 0s linear infinite;
+    -moz-animation: blinker 1s 0s linear infinite;
+    animation: blinker 1s 0s linear infinite;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.settled::before {
+    display: none;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.settled > span.win {
+    color: white;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.settled > span.lose {
+    color: white;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.settled > span.amount {
+    color: white;
+}
+
+section.history > div > div > .scrollbar-container > ul > li:not(.settled) > span.lose {
+    display: none;
+}
+
+section.history > div > div > .scrollbar-container > ul > li:not(.settled) > span.result {
+    visibility: hidden;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won {
+    color: #6BDC6E;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won .lose {
+    display: none;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won .win {
+    display: inline-block;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won > span.result > i.dice-option::after {
+    background-color: #99FF99;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won > span.result > i.coin-option::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(127, 255, 127, 0.25);
+    border-radius: 100%;
+}
+
+section.history > div > div > .scrollbar-container > ul > li.won > span.result > strong {
+    color: #aaffaa;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > button {
+    border: none;
+    background: none;
+    border: solid #aeaeae;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotateZ(-45deg);
+    vertical-align: middle;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > button.active {
+    transform: rotateZ(45deg);
+    transition: transform 1s linear;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > div {
+    padding: 20px 30px;
+    margin: 10px -30px 0px -30px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > div > table {
+    color: #aeaeae;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 12px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > div > table > tbody > tr > td[data-uri] {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > div > table > tbody > tr > td:nth-child(1) {
+    width: 100px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > div > table > tbody > tr > td:nth-child(2) {
+    width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ededed;
+    padding: 5px 0;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: #aeaeae;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 14px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.address {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.address.high-roller {
+    color: #FFDF66;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.address img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.amount {
+    text-align: left;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.coin-flip > i.coin-option {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.two-dice {
+    font-size: 0.75em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.dice.result > i.dice-option {
+    width: 24px;
+    height: 24px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.dice > i.dice-option {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    top: -1px;
+    opacity: 0.9;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.two-dice.result > i.dice-option {
+    width: 21px;
+    height: 21px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.two-dice > i.dice-option {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    top: -1px;
+    opacity: 0.9;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.result {
+    display: inline-block;
+    text-align: left;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.result > i.coin-option::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: transparent;
+    border-radius: 100%;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.result > i.dice-option::after {
+    background-color: white;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.result > strong {
+    color: white;
+    display: inline-block;
+    width: 20px;
+    font-family: 'San Francisco Display Medium';
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.lose {
+    width: 55px;
+    display: inline-block;
+    text-align: left;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.win {
+    width: 55px;
+    display: none;
+    text-align: left;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span .ethers {
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span:nth-child(1) {
+    width: 100px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span:nth-child(2) {
+    width: 45px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span:nth-child(3) {
+    width: 70px;
+    margin-right: 5px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span:nth-child(4) {
+    width: 45px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span:nth-child(5) {
+    width: 55px;
+}
+
+section.history > div > div > .scrollbar-container > ul > li > span.jackpot {
+    width: 40px;
+    text-align: center;
+    background-position-x: 7px;
+}
+
+section.history > div > div > .scrollbar-container > .ps__rail-y {
+    right: 5px !important;
+}
+
+@media screen and (max-width: 800px) {
+    section.history > div {
+        background: none;
+        box-shadow: none;
+        position: relative;
+        float: none;
+        width: 100%;
+        height: 627px;
+        margin: 0;
+        padding-top: 30px;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    section.history > div h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    section.history > div h3 > button {
+        margin: 0;
+        margin-top: -5px;
+        margin-right: 0px;
+    }
+
+    section.history > div > div {
+        height: auto;
+        margin: 0;
+        width: auto;
+    }
+
+    section.history > div > div > header {
+        margin: 0;
+        border-bottom: none;
+    }
+
+    section.history > div > div > header > label:nth-child(6) {
+        display: none;
+    }
+
+    section.history > div > div > div.scrollbar-container {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        min-height: 0;
+    }
+
+    section.history > div > div > div.scrollbar-container > ul {
+        height: auto;
+    }
+
+    section.history > div > div > div.scrollbar-container > ul > li > div {
+        margin: 0;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    section.history > div > div > div.scrollbar-container > ul > li > span:nth-child(7) {
+        display: none;
+    }
+
+    section.history > div > div > .scrollbar-container > ul > li > button {
+        position: absolute;
+        right: 0.25em;
+        top: 0.75em;
+    }
+}

@@ -1,0 +1,231 @@
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes opacity-appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-appeared {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes loading-spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@-moz-keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes loading-ether {
+    from {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    to {
+        opacity: 0.7;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.ethers {
+    font-family: 'Tex Gyre Cursor';
+}
+
+.ethers > small {
+    font-family: 'San Francisco Display Thin';
+    font-size: 1em;
+    padding-left: 0.25em;
+}
+
+@keyframes acid-button-loop {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
+.bets > .quick-bets {
+    margin-bottom: 10px;
+}
+
+.bets > .quick-bets > button {
+    border: none;
+    display: inline-block;
+    width: 65px;
+    height: 35px;
+    background: #5B74AE;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: white;
+    font-family: "Tex Gyre Cursor";
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.bets > .quick-bets > button:hover {
+    text-decoration: underline;
+}
+
+.bets > .quick-bets > button:last-of-type {
+    margin-right: 0px;
+}
+
+.bets > .quick-bets > button.disabled {
+    opacity: 0.25;
+}
+
+.bets > .quick-bets > button.disabled:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.bets > .field {
+    white-space: nowrap;
+}
+
+.bets > .field > button {
+    background: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    width: 65px;
+    height: 75px;
+    line-height: 75px;
+    vertical-align: middle;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.bets > .field > input {
+    background: none;
+    border: 1px solid white;
+    width: 215px;
+    height: 75px;
+    border-radius: 8px;
+    line-height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: "Tex Gyre Cursor";
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.bets > .field > span {
+    margin-top: 10px;
+    display: block;
+    opacity: 0.6;
+    color: #fff;
+    font-family: "San Francisco Display Thin";
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.bets button {
+    cursor: pointer;
+}
+
+.bets button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 800px) {
+    .bets > .quick-bets {
+        margin-bottom: 0px;
+    }
+
+    .bets > .quick-bets > button {
+        height: 30px;
+    }
+
+    .bets > .field > button {
+        width: 45px;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .bets > .field > input {
+        width: 182px;
+        height: 35px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .bets > .field > span {
+        margin-top: 0;
+    }
+}
