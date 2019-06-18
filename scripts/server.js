@@ -8,7 +8,7 @@ const config = require("./webpack.dev.js");
 //const router = require("../router/index")
 
 const app = new Koa();
-const port = 9000;
+const port = 80;
 
 // this is our MongoDB database
 /*const dbRoute =
@@ -48,10 +48,10 @@ app
                 },
             },
             hot: {
-                host: {
+/*                host: {
                     server: "0.0.0.0",
                     client: "127.0.0.1"
-                },
+                },*/
                 port: 8081,
                 hot: true,
             }
