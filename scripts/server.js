@@ -37,7 +37,7 @@ app
                 headers: {"Access-Control-Allow-Origin": "*"},
                 hot: true,
                 noInfo: true,
-                proxyTable: {
+/*                proxyTable: {
                     '/api': {
                         target: 'http://localhost:9000/',
                         changeOrigin: true,
@@ -45,7 +45,7 @@ app
                             '^/api': '/',
                         },
                     },
-                },
+                },*/
             },
             hot: {
 /*                host: {
