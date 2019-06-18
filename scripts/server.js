@@ -47,14 +47,14 @@ app
                     },
                 },
             },
-            hot: {
-/*                host: {
+/*            hot: {
+                host: {
                     server: "0.0.0.0",
                     client: "127.0.0.1"
-                },*/
+                },
                 port: 8081,
                 hot: true,
-            }
+            }*/
         })
     )
 

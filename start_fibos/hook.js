@@ -51,6 +51,9 @@ let hooks = {
     },
     "eosio.token":(db, messages)=>{
         console.error(messages)
+    },
+    "kqs11k2vcplh":(db, messages)=>{
+        console.error(messages)
     }
 }
 
