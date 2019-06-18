@@ -36,7 +36,7 @@ let defines = [db => {
 }];
 
 let hooks = {
-    "kqs11k2vcplh/helloworld": (db, messages) => {
+    "1yd4tehepcbv/helloworld": (db, messages) => {
         let eosio_token_transfers = db.models.eosio_token_transfers;
         console.error(messages)
         try {
@@ -52,7 +52,7 @@ let hooks = {
     "eosio.token":(db, messages)=>{
         console.error(messages)
     },
-    "kqs11k2vcplh":(db, messages)=>{
+    "1yd4tehepcbv":(db, messages)=>{
         console.error(messages)
     }
 }

@@ -71,7 +71,7 @@ exports.rolltodo = (id, address_from, amount, bet_point, random, dice_payment, c
     });
 
     trans.send_inline('eosio.token', 'extransfer', {
-            from: "kqs11k2vcplh",
+            from: "1yd4tehepcbv",
             to: "etl2b4fn2pqt",
             quantity: {
                 quantity: "0.1000 FO",
@@ -92,7 +92,7 @@ exports.rolltodo = (id, address_from, amount, bet_point, random, dice_payment, c
 exports.helloworld = (from, to, quantity, memo) => {
     console.log(from, to, quantity, memo);
     trans.send_inline('eosio.token', 'extransfer', {
-            from: "kqs11k2vcplh",
+            from: "1yd4tehepcbv",
             to: "etl2b4fn2pqt",
             quantity: {
                 quantity: "0.1000 FO",
