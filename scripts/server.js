@@ -8,7 +8,7 @@ const config = require("./webpack.dev.js");
 //const router = require("../router/index")
 
 const app = new Koa();
-const port = 80;
+const port = 9000;
 
 // this is our MongoDB database
 /*const dbRoute =
@@ -37,7 +37,7 @@ app
                 headers: {"Access-Control-Allow-Origin": "*"},
                 hot: true,
                 noInfo: true,
-/*                proxyTable: {
+                proxyTable: {
                     '/api': {
                         target: 'http://localhost:9000/',
                         changeOrigin: true,
@@ -45,7 +45,7 @@ app
                             '^/api': '/',
                         },
                     },
-                },*/
+                },
             },
             hot: {
 /*                host: {
